@@ -1,4 +1,7 @@
-const Hero =()=>{
+import React from 'react';
+
+const Hero = () => {
+
     return(
         <div className="herosection">
             <div className="herotext">
@@ -10,12 +13,12 @@ const Hero =()=>{
                 </p>
                 <div className="rt">
                 <button>
-                    Reserve Table                    
+                    Booking Table                    
                 </button>      
                 </div>              
             </div>  
             <div className="pt">
-            <img src="https://example.com/image.jpg" alt="Restaurant" />    
+            <img src="/littlelemon1.jpg" alt="Little Lemon Restaurant" />
             </div>                 
 
         </div>
